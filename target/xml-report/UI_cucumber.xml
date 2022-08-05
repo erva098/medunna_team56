@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.523">
+    <testcase classname="anasayfa" name="anasayfa test" time="1.045">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;utilities.Driver.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given kullanıcı anasayfaya gider............................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "utilities.Driver.driver" is null
+	at utilities.Driver.getDriver(Driver.java:29)
+	at stepDefinitions.uiStep.Deneme.kullanıcı_anasayfaya_gider(Deneme.java:11)
+	at ✽.kullanıcı anasayfaya gider(file:///C:/Users/lenova/IdeaProjects/medunne_team56/src/test/resources/features/uiFeatures/deneme.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
